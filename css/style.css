@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: black;
+  font-family: "Lobster", cursive;
+}
+.nav-link {
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+}
+.nav-link:hover {
+  color: black;
+}
+.search {
+  height: 40px;
+  width: 100%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid #333;
+  padding: 10px;
+  font-family: "Rubik", sans-serif;
+}
+.btn0 {
+  background-color: black;
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: 0;
+  color: #fff;
+  border-radius: 60px;
+  font-weight: 500;
+  margin-left: -40px;
+  font-family: "Rubik", sans-serif;
+}
+.btn {
+  border-radius: 40px;
+  font-family: "Rubik", sans-serif;
+}
+.btn a {
+  font-family: "Rubik", sans-serif;
+}
+
+/* Aside */
+
+.side-bare {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.side-bare h2 {
+  padding: 10px 0px;
+}
+.side-bare a {
+  text-decoration: none;
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666666db;
+  border-top: 1px solid #6666662a;
+  transition: 0.4s ease-in-out;
+}
+
+.side-bare a:hover {
+  color: black;
+}
+
+/* Slide Swiper */
+
+.slide-swp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left top;
+}
+.slide-swp .swiper-pagination span {
+  background-color: #fff;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: #fcb700 !important;
+  width: 30px !important;
+  height: 8px !important;
+  border-radius: 30px !important;
+}
+
+/* Top Ten Movies */
+
+#top-ten-container .top-ten .movie-card {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Movies */
+
+.movies-container,
+.top-ten,
+.latest {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+a.link {
+  text-decoration: none;
+  color: black;
+}
+.movie-card {
+  width: 250px;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f8f9fa;
+  position: relative;
+  overflow: hidden;
+}
+.movie-card:hover {
+  background-color: #e4e4e4;
+  img {
+    scale: 1.18;
+    transition: all 0.8s ease-in-out;
+  }
+  transition: all 0.8s;
+}
+.image-details:hover {
+  scale: 1.1;
+  transition: all 0.8s ease-in-out;
+}
+.movie-card a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+.movie-card img {
+  width: 150px;
+  height: 225px;
+  border-radius: 25px;
+  padding: 16px;
+}
+.movie-card .info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  font-size: 12px;
+}
+.movie-card .info .date {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.movie-card .info .title {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.card-text {
+  opacity: 0.5;
+}
+
+/* Back To Top */
+.bake {
+  position: relative;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: block;
+  z-index: 1000;
+}
+
+/* Contact */
+
+.contact-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer CSS  */
+
+.footer-contacts h5 {
+  color: black;
+}
+.links a,
+.footer-contacts a,
+.footer-logo {
+  cursor: pointer;
+  color: #666666db;
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+  left: 0;
+  transition: 0.3s ease-in-out;
+}
+.footer-contacts {
+  color: #666666db;
+}
+.links a:hover,
+.footer-contacts a:hover,
+.footer-logo:hover {
+  color: black;
+  left: 8px;
+}
+.footer-about {
+  color: #666666db;
+}
+.footer-logo {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #6666662a;
+}
+/* register */
